@@ -14,7 +14,7 @@
 <style>
 #div1 {
  font-size:48px; }
-    body { background-color: #721bc4 ; font-family: 'Pacifico'; }
+    body { background-color: #61A4AD ; font-family: 'Lexend'; }
     h1{ background-color: #a666e3 ; text-shadow:5px 5px 5px  #dfd2ec ; text-align:center;}
     canvas{ animation: mymove 5s infinite;  border: 5px solid   #0a3cda  ; border-style:dotted; border-radius: 15px 50px; }
     @keyframes mymove {
@@ -164,7 +164,7 @@ function display_intro_instructions () {
   ctx.font= "25px Arial";
   ctx.fillStyle= "red";
   ctx.textAlign="center";
-  ctx.fillText("Press, touch or click to start", myCanvas.width / 2, myCanvas.height / 4); 
+  ctx.fillText("oh no! high score is cool, dying isnt!", myCanvas.width / 2, myCanvas.height / 4); 
   }
 function display_game_over () {
   var score = 0;                                            
@@ -176,7 +176,7 @@ function display_game_over () {
   ctx.fillText("Game Over", myCanvas.width / 2, 100); 
   ctx.fillText("Score: " + score, myCanvas.width / 2, 150); 
   ctx.font= "20px Arial";
-  ctx.fillText("Click, touch, or press to play again", myCanvas.width / 2, 300); 
+  ctx.fillText("oh no! high score is cool, dying isnt!", myCanvas.width / 2, 300); 
   }
 function display_bar_running_along_bottom() {
     if (bottom_bar_offset < -23) bottom_bar_offset = 0;
